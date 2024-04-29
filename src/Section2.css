@@ -1,0 +1,122 @@
+
+.section2{
+    margin : 50px auto;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+    gap : 25px;
+    /* background-color : red; */
+}
+
+.cards{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-wrap : wrap;
+    gap : 15px;
+    margin : 40px auto;
+   
+}
+
+.card{
+    /* height : 400px;
+    width : 311px; */
+    /* border : 1px solid black; */
+    border-radius : 10px;
+    background-color : rgb(234, 236, 231);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+    flex-wrap : wrap;
+}
+
+.card-img{
+    height : 260px;
+    width : 300px;
+    margin : 5px;
+    border-radius : 10px;
+}
+
+.space{
+    height : 90%;
+    display : flex;
+    justify-content : space-around;
+    gap : 20px;
+}
+
+.location{
+    color : white;
+    
+}
+
+.heart{
+    /* flex-grow : 1; */
+}
+
+.text{
+    display : flex;
+    justify-content : end;
+    align-items : center;
+}
+
+.text button{
+    border : none;
+    margin : 2px;
+    padding : 2px;
+    cursor : pointer;
+    border-radius : 2px;
+    background-color : rgba(155, 160, 158, 0.44);
+    color : white;
+    position : relative;
+    right : 5px;
+}
+
+.dest-info{
+    margin : 10px;
+    text-align : center;
+    max-width : 300px;
+}
+
+.go-like{
+    width : 80%;
+    margin : auto;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+}
+
+.go{
+    border : none;
+    border-radius : 10px;
+    background-color : rgb(5, 106, 127);
+    margin : 7px;
+    padding : 10px;
+    color : rgb(255, 255, 255);
+}
+
+.like{
+    /* width : 20%; */
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    gap : 5px;
+    border : 1px solid gray;
+    border-radius : 10px;
+    padding : 5px;
+}
+
+.like img{
+    height : 20px;
+}
+
+.like div:nth-child(2){
+    height : 22px;
+    width : 2px;
+    background-color : rgb(88, 85, 85);
+}
+
+@keyframes card_animation {
+    
+}
